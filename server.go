@@ -31,5 +31,5 @@ func main() {
 
 		return
 	})
-	server.Logger.Fatal(server.Start(":1200"))
+	server.Logger.Fatal(server.Start(":8080"))
 }
